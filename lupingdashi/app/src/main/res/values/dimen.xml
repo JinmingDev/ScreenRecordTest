@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="touchwidth">40dp</dimen>
+    <dimen name="top_btnw">20dp</dimen>
+
+    <dimen name="main_fragment_title">20sp</dimen>
+</resources>

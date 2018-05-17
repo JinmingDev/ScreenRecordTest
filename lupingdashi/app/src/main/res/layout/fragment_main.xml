@@ -6,6 +6,45 @@
     tools:context="com.supper.lupingdashi.fragment.MainFragment">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorMainTitle">
+
+        <RelativeLayout
+            android:layout_width="@dimen/touchwidth"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@mipmap/main_set"
+                android:layout_width="@dimen/top_btnw"
+                android:layout_height="@dimen/top_btnw"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="录屏专家"
+            android:textColor="@color/white"
+            android:textSize="@dimen/main_fragment_title" />
+
+        <RelativeLayout
+            android:id="@+id/main_set_btn"
+            android:layout_width="@dimen/touchwidth"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@mipmap/main_set"
+                android:layout_width="@dimen/top_btnw"
+                android:layout_height="@dimen/top_btnw" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -14,9 +53,9 @@
 
         <Button
             android:id="@+id/hengping"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/heng_ping" />
 
 
